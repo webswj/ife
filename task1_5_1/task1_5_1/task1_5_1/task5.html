@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>task_1_5_1</title>
+		<style type="text/css">
+		body{width: 100%;}
+		h1{font-weight: 900;}
+		h2{font-weight: 500;}
+		dt{font-weight: 300;}
+		.content, aside {margin: 15px; box-shadow: 2px 1px 2px 2px  rgba(8, 0, 2, 0.3); background-color: #fff;
+						padding: 15px; box-sizing: border-box;}
+		.content {width: 70%;}	
+		aside {width: 25%; position: absolute; left:72%;  top:85px; margin-top: 0;}					
+		p {font-size: 14px; font-family: "微软雅黑" arial sans-serif; line-height: 26px; text-indent: 2em;}
+		figure {float: left; margin: 10px;}
+		dl, dt, dd {display: inline-block; font-size: 10px;}
+		/*头部*/
+		.logo{width: 140px; height: 60px; margin-left: 20px;}
+		.head {position: relative; isplay: block;height: 60px; background-color:#333;}
+		.head div{position: absolute; top:0; left: 0; display: inline-block;}
+		.head ul{position: absolute; top: 0; right: 0; margin-right: 20px;}
+		.head li{display: inline-block;}
+		.head i{display: inline-block; background-color: black; text-indent: -9999px; height: 8px; width: 8px;
+				line-height: 8px; border-radius: 5px; margin:8px;}
+		.head a{color: white; text-decoration: none;}
+		a:hover{color:darkgray;}	
+		.content ul {list-style: none;}
+		/*表格部分*/
+		table{width: 100%; border-collapse: collapse;}
+		table >caption{text-align: left;}
+		th{color: white; background-color: black; text-align: left;}
+		.last{color: black;	background-color: darkgray;	font-weight: bold;}		
+/*表单部分*/
+		aside{min-width: 365px;}
+		aside h1{font-size: 18px;}
+		form fieldset {border: none; width: 100%; overflow: hidden;}
+		form label{text-align: right; display:inline-block; height: 20px;width: 33.3333%;vertical-align: top; white-space: nowrap; float: left; margin-right: 10px;}
+		.readonly{border: none;margin-left: 38%;}
+		.submit{font-size: 18px; font-weight: bold;	color: white; background-color:royalblue; height: 50px;
+				 border-radius: 8px; width: 90%;}
+/*页脚*/
+		.footer{height: 100px; line-height: 100px; background-color: #000000; color: white; text-align: center;}
+		.footer span{display: inline-block;}
+
+		</style>
+	</head>
+	<body>
+		<nav class="head">
+			<div><img src="img/logo.png" alt="logo" class="logo"></div>
+			<ul>
+				<li><i>1</i><a href="#">导航链接一</a></li>
+				<li><i>1</i><a href="#">导航链接二</a></li>
+				<li><i>1</i><a href="#">导航链接三</a></li>
+				<li><i>1</i><a href="#">导航链接四</a></li>
+			</ul>
+		</nav>
+		<div class="content">
+			<h1>文章一级标题</h1>
+			<h2>文章二级标题</h2>
+			<dl>
+				<dt>文章作者</dt>
+				<dt>文章发表时间</dt>
+				<dd></dd>
+			</dl>
+			<p>
+				这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+				这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+				这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+				<img src="img/task1.jpg" alt="任务图片" /><p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落.
+			</p>
+		</div>
+		<div class="content">
+			<h1>另一篇文章一级标题</h1>
+			<h2>文章一级标题</h2>
+			<dl>
+				<dt>文章作者</dt>
+				<dt>文章发表时间</dt>
+				<dd></dd>
+			</dl>
+			<p>
+				这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+				这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />
+				这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+			</p>
+			<img src="img/task1.jpg" alt="任务图片" />
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目</li>
+				<li>列表项目</li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1>图片</h1>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>			
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>	
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>	
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>	
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="img/task1.jpg" alt="任务图片" />
+			</figure>
+			<p style="width: 0; clear: both;"></p>				
+		</div>
+		<div class="content">
+			<h1>最后一篇文章一级标题</h1>
+			<h2>文章一级标题</h2>
+			<dl>
+				<dt>文章作者</dt>
+				<dt>文章发表时间</dt>
+				<dd></dd>
+			</dl>	
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+		<table border="1" cellspacing="" cellpadding="">
+			<caption>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格,你们不写html时候不需要加</caption>
+			<tr><th>表头</th><th>表头</th><th>表头</th></tr>
+			<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="#">操作</a></td></tr>
+			<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="#">操作</a></td></tr>
+			<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="#">操作</a></td></tr>
+			<tr><td>表内容单元格</td><td>表内容单元格</td><td><a href="#">操作</a></td></tr>
+			<tr class="last"><td>总计</td><td colspan="2">1000</td></tr>
+		</table>	
+		</div>
+		<aside>
+			<h1>这里以后是一个侧栏，这是侧栏标题</h1>
+			<form action="#"> 
+				<fieldset>
+					<label for="email">请输入邮箱地址</label>
+					<input type="email" name="email" placeholder="这是一个文本输入框"/>
+				</fieldset>
+				<fieldset>
+					<input type="text" placeholder="邮箱地址请按要求输入" readonly class ="readonly"/>
+				</fieldset>
+				<fieldset >
+					<label for="password1">请输入密码</label>
+					<input type="password" name="password1" />
+				</fieldset>
+				<fieldset>
+					<label for="password2">请重复输入密码</label>
+					<input type="password" name="password2" />
+				</fieldset>
+				<fieldset>
+					<input type="text" placeholder="密码请为6-16位英文数字" readonly class ="readonly"/>
+				</fieldset>
+				<fieldset>
+					<label for="x">性别</label>
+					<input type="radio" checked="checked"name="x"/>男
+		     		<input type="radio" name="x"/>女
+		     	</fieldset>
+		     	<fieldset>
+		     		<label for="c">城市</label>
+		     		<select name="c" >
+		     			<option value="北京">北京</option>
+		     			<option value="上海">上海</option>
+		     			<option value="广州">广州</option>
+		     			<option value="深圳">深圳</option>
+		     		</select>
+		     	</fieldset>
+		     	<fieldset>
+		     		<label for="a">爱好</label>
+					<input type="checkbox" name="a"  value="运动"/>运动
+					<input type="checkbox" name="a"  value="艺术" />艺术
+					<input type="checkbox" name="a"  value="科学" />科学
+		     	</fieldset>	
+		     	<fieldset>
+					<label for="g">个人描述</label>
+					<textarea name="g" rows="5">这是一个输入框，请输入您的个人描述</textarea>
+				</fieldset>
+				<fieldset>
+					<button type="submit" class="submit">确认提交</button>
+				</fieldset>
+			</form>
+		</aside>
+		<div class="footer"><span>版权所有&copy;</span></div>
+	</body>
+</html> 
