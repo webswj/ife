@@ -1,3 +1,14 @@
+	function addLoadEvent(func){
+		var oldonload = window.onload;
+		if(typeof window.onload != 'function'){
+			window.onload = func;
+		}else{
+			window.onload = function(){
+			oldonload();
+			func();
+			}
+		}
+	}
 	var item = 1; //图片数量基数
 	function gallery () {
 		var gallery = document.getElementById('gallery');
@@ -36,4 +47,5 @@
 			item=1;
 		}
 	}
- setInterval(gallery,5000);
+	addLoadEvent(gallery);
+ 	setInterval(gallery,5000);
