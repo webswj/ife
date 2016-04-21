@@ -1,0 +1,110 @@
+	.g-wrap{
+		position: relative;
+		width: 1024px;
+		height: 768px;
+	}
+	.g-wrap img{
+		position: absolute;
+		object-fit:cover;
+		overflow: hidden;
+	}
+	/*二张图片*/
+	.g-two img:first-of-type{
+		-webkit-clip-path: polygon(0 0, 66.666666% 0, 33.333333% 100%, 0% 100%);
+		clip-path: polygon(0 0, 66.666666% 0, 33.333333% 100%, 0% 100%);
+	}
+	.g-two img:nth-of-type(2){
+		-webkit-clip-path: polygon(66.666666% 0, 100% 0, 100% 100%, 33.333333% 100%);
+		clip-path: polygon(66.666666% 0, 100% 0, 100% 100%, 33.333333% 100%);
+	}
+	/*三张图片*/
+	.g-three img:first-of-type{
+		width: 50%;
+		height: 100%;
+	}
+	.g-three img:nth-of-type(2){
+		left: 50%;
+		width: 384px;
+		height: 384px;
+	}
+	.g-three img:nth-of-type(3){
+		top: 50%;
+		left: 50%;
+		width: 384px;
+		height: 384px;
+	}
+	/*四张图片*/
+	.g-four img{
+		width: 50%;
+		height: 50%;		
+	}
+	.g-four img:nth-of-type(2){
+		left: 50%;
+	}
+	.g-four img:nth-of-type(3){
+		top:50%;
+	}
+	.g-four img:nth-of-type(4){
+		top: 50%;
+		left: 50%;
+	}
+	/*五张图片*/
+	.g-five img:first-of-type{
+		width: 66.666666%;
+		height:66.666666%;
+	}
+	.g-five img:nth-of-type(2){
+		left: 66.666666%;
+		width:33.333333%;
+		height:33.333333%;
+	}
+	.g-five img:nth-of-type(3){
+		top:66.666666%;
+		width: 33.333333%;
+		height:33.333333%;		
+	}
+	.g-five img:nth-of-type(4){
+		top:66.666666%;
+		left: 33.333333%;
+		width: 33.333333%;
+		height:33.333333%;		
+	}
+	.g-five img:nth-of-type(5){
+		top:33.333333%;
+		left: 66.666666%;
+		width: 33.333333%;
+		height: 66.666666%;
+	}
+	/*六张图片*/
+	.g-six img:first-of-type{
+		width: 66.666666%;
+		height: 66.666666%;
+	}
+	.g-six img:nth-of-type(2){
+		left: 66.666666%;
+		width: 33.333333%;
+		height: 33.333333%;
+	}
+	.g-six img:nth-of-type(3){
+		top:33.333333%;
+		left: 66.666666%;
+		width: 33.333333%;
+		height: 33.333333%;
+	}
+	.g-six img:nth-of-type(4){
+		top:66.666666%;
+		width: 33.333333%;
+		height: 33.333333%;		
+	}
+	.g-six img:nth-of-type(5){
+		top:66.666666%;
+		left: 33.333333%;
+		width: 33.333333%;
+		height: 33.333333%;		
+	}
+	.g-six img:nth-of-type(6){
+		top: 66.666666%;
+		left: 66.666666%;
+		width: 33.333333%;
+		height: 33.333333%;		
+	}
