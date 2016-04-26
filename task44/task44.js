@@ -125,5 +125,9 @@
 /*监听遮罩的点击事件*/
 	var Gpic= getByClass(document,'g-pic')[0];
 	addEvent(Gpic,'click',function(event){
-		Gpic.style.display = 'none';
+		var target = event.target||event.srcElement;
+		console.log(target.className);
+		if(target.className == 'm-pic'){
+			Gpic.style.display = 'none';
+		}	
 	});

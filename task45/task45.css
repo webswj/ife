@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body,fieldset,img,iframe,abbr,button {
+	border:0;
+}
+#main{/*
+	width: 1400px;
+	min-width: 1400px;*/
+	margin: 0 auto;
+}
+.pic{
+	/*float: left;*/
+	padding: 16px 0 0 16px;
+}
+.pic img{
+	padding: 4px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 2 6px #ccc;
+}
